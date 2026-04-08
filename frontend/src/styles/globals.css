@@ -1,0 +1,727 @@
+/* --- YOUR ORIGINAL CSS (Kept exactly as requested) --- */
+:root {
+  --primary-gold: #de9f57;
+  --primary-blue: #003366;
+  --dark-navy: #0a1c38;
+  --text-dark: #212529;
+  --text-light: #ffffff;
+  --bg-dark: #000000;
+  --bg-light: #f4f7f6;
+  --overlay-black: rgba(0, 0, 0, 0.6);
+  --font-base: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  --font-serif: "Times New Roman", Times, serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: var(--font-base);
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden !important;
+  line-height: 1.6;
+}
+
+/* --- BUTTONS & TABLES (Your provided rules) --- */
+.btn-gold-custom {
+  background-color: var(--primary-gold) !important;
+  color: #000 !important;
+  font-weight: 700 !important;
+  padding: 10px 25px !important;
+  border-radius: 0 !important;
+}
+
+.text-gold { color: var(--primary-gold) !important; }
+.text-white { color: var(--text-light) !important; }
+
+/* --- GRID & CONTAINERS --- */
+.container { padding-right: 15px; padding-left: 15px; }
+
+/* --- SECTIONS (Component Specific) --- */
+.banner-section {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-color: var(--dark-navy);
+}
+
+.hero-stats-bar {
+  background-color: var(--primary-blue);
+  border-bottom: 4px solid var(--primary-gold);
+  color: var(--text-light);
+  margin-top: 30px;
+}
+
+.stats-section {
+  background-color: var(--primary-blue);
+  color: var(--text-light);
+}
+
+/* --- UI PROTECTION RULES (Merged from Component) --- */
+.ranking-heading p {
+  color: white !important;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.dynamic-content-fix {
+  width: 100% !important;
+  word-wrap: break-word !important;
+}
+
+.dynamic-content-fix h2,
+.dynamic-content-fix h1 {
+  font-size: clamp(1.8rem, 4vw, 2.4rem) !important;
+  color: var(--primary-blue) !important; /* Using your variable */
+  margin-bottom: 20px !important;
+}
+
+.dynamic-hero-text h1 {
+  font-size: 3.5rem !important;
+  font-weight: 800;
+  color: white !important;
+}
+
+.border-end-custom {
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.card-shadow {
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08) !important;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}
+
+/* Responsive Fixes for Stats Bar */
+@media (max-width: 768px) {
+  .border-end-custom {
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
+
+
+/* 1. Primary Gold Button (Sumbit / Create / Add) */
+.btn-gold-custom {
+  background-color: var(--primary-gold) !important;
+  color: #000 !important;
+  border: none !important;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 10px 25px !important;
+  border-radius: 0 !important; /* Professional Square Look */
+  transition: all 0.3s ease !important;
+}
+
+.btn-gold-custom:hover {
+  background-color: #dcb04a !important; /* Slightly darker gold */
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* 2. Outline Button (Cancle / Back) */
+.btn-outline-custom {
+  background-color: transparent !important;
+  color: var(--bg-dark) !important;
+  border: 2px solid var(--bg-dark) !important;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  padding: 8px 25px !important;
+  border-radius: 0 !important;
+  transition: all 0.3s ease !important;
+}
+
+.btn-outline-custom:hover {
+  background-color: var(--bg-dark) !important;
+  color: var(--primary-gold) !important;
+}
+
+/* 3. Table Action Buttons (Edit / Delete) */
+.btn-action {
+  background-color: #fff !important;
+  border: 1px solid #dee2e6 !important;
+  padding: 5px 10px !important;
+  border-radius: 4px !important;
+  transition: all 0.2s ease;
+}
+
+.btn-action:hover {
+  background-color: var(--bg-light) !important;
+  border-color: var(--primary-gold) !important;
+}
+
+/* --- Table Utility --- */
+.table-dark-custom {
+  background-color: var(--bg-dark) !important;
+  color: var(--text-light) !important;
+}
+
+.bg-light-gray {
+  background-color: var(--bg-light) !important;
+}
+
+html, body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden !important;
+  font-family: var(--font-base);
+  color: var(--text-dark);
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+h1, .display-3 {
+  font-size: clamp(2rem, 5vw, 4rem) !important;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h2, .display-4 {
+  font-size: clamp(1.75rem, 4vw, 3rem) !important;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+h3, .display-5 {
+  font-size: clamp(1.5rem, 3vw, 2.5rem) !important;
+  font-weight: 700;
+}
+
+h4, .display-6 {
+  font-size: clamp(1.25rem, 2.5vw, 2rem) !important;
+  font-weight: 700;
+}
+
+p, .lead, li, span, a, .nav-link {
+  font-size: clamp(0.95rem, 1vw, 1.15rem);
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.text-gold { color: var(--primary-gold) !important; }
+.text-blue { color: var(--primary-blue) !important; }
+.text-white { color: var(--text-light) !important; }
+
+.bg-blue { background-color: var(--primary-blue) !important; }
+.bg-light-gray { background-color: var(--bg-light) !important; }
+
+.header-main {
+  background-color: var(--bg-dark);
+  transition: all 0.3s ease;
+  z-index: 1050;
+}
+
+.header-sticky {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+}
+
+.nav-link {
+  font-weight: 600;
+  color: var(--text-light) !important;
+  padding: 10px 15px !important;
+  white-space: nowrap;
+}
+
+.nav-link:hover, .active-link {
+  color: var(--primary-gold) !important;
+}
+
+.dropdown-menu {
+  background-color: var(--bg-dark);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 3px solid var(--primary-gold);
+  padding: 0;
+}
+
+.dropdown-item {
+  color: var(--text-light);
+  padding: 12px 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.dropdown-item:hover {
+  background-color: #222;
+  color: var(--primary-gold);
+}
+
+.btn-custom {
+  background-color: rgba(222, 159, 87, 0.5);
+  color: var(--text-light);
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 0.5rem 1.25rem;
+  white-space: nowrap;
+}
+
+.btn-custom:hover {
+  background-color: var(--primary-gold);
+  color: var(--text-light);
+}
+
+.banner-section {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-color: var(--dark-navy);
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--overlay-black);
+  z-index: 1;
+}
+
+.banner-content {
+  z-index: 2;
+  position: relative;
+  padding: 1rem 0; 
+}
+
+.hero-stats-bar {
+  background-color: var(--primary-blue);
+  border-bottom: 4px solid var(--primary-gold);
+  color: var(--text-light);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  position: relative;
+  z-index: 10;
+}
+
+.tracking-wide {
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+@media (min-width: 768px) {
+  .hero-stats-bar .border-end-custom {
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
+  }
+}
+
+.stats-section {
+  background-color: var(--primary-blue);
+  color: var(--text-light);
+  padding-top: 1.5rem !important; 
+  padding-bottom: 1.5rem !important;
+}
+
+.stats-section h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.2rem;
+}
+
+.card-shadow {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.img-cover {
+  width: 100%;
+  height: 100%;
+  min-height: 300px;
+  object-fit: cover;
+}
+
+.btn-premium {
+  background-color: transparent;
+  border: 2px solid var(--primary-blue);
+  color: var(--primary-blue);
+  padding: 12px 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.btn-premium:hover {
+  background-color: var(--primary-blue);
+  color: var(--text-light);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.15);
+}
+
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+}
+
+iframe.goog-te-banner-frame {
+    display: none !important;
+}
+
+body {
+    top: 0px !important;
+    position: static !important;
+}
+
+.goog-te-gadget-icon {
+    display: none !important;
+}
+
+.goog-te-gadget-simple {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+#goog-gt-tt, .goog-tooltip, .goog-tooltip:hover {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+.goog-text-highlight {
+    background: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+font iframe {
+    display: none !important;
+}
+/* --- Banner System --- */
+.universal-banner {
+    width: 100%;
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 60px 0;
+}
+
+.banner-overlay {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    z-index: 1;
+}
+
+.banner-content {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    color: var(--text-light);
+}
+
+/* --- Card System (For Promoters, Awards etc.) --- */
+.custom-card-wrapper {
+    border-radius: 4px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #ffffff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-card-wrapper:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* --- Image Container (Fixed ratio, No Blur, No Cut) --- */
+.img-fixed-container {
+    height: 260px;
+    width: 100%;
+    overflow: hidden;
+    background-color: var(--bg-light);
+}
+
+.img-fixed-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+}
+/* --- Universal Button System (Fixed Hover Issue) --- */
+.btn-primary-custom {
+    background-color: #A35233 !important; /* Original Brown */
+    color: #ffffff !important;           /* Always White Text */
+    border: none !important;
+    border-radius: 0 !important;
+    font-weight: 700;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    padding: 12px 0;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-primary-custom:hover {
+    background-color: #8b452a !important; /* Slightly Darker Brown on Hover */
+    color: #ffffff !important;           /* Ensure Text stays White */
+    text-decoration: none;
+    opacity: 1;
+}
+/* Custom Suggestion Dropdown List */
+.suggestion-list {
+    z-index: 1050;
+    max-height: 200px;
+    overflow-y: auto;
+    width: 100%;
+}
+
+/* Table Summary Constraint */
+.table-summary-width {
+    max-width: 250px;
+    display: block;
+}
+
+/* Ensure global font settings apply to inputs and select */
+input, select, .form-control, .form-select {
+    font-family: var(--font-base);
+    font-size: 0.95rem;
+}
+
+/* Table header color using your dark-navy variable */
+.table-dark-custom {
+    background-color: var(--dark-navy) !important;
+    color: var(--text-light) !important;
+}
+
+/* Promoter Specific Styles */
+.promoter-card-wrapper {
+    border-radius: 4px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #ffffff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.promoter-card-wrapper:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Fixed Image Container to prevent distortion */
+.promoter-img-box {
+    height: 260px;
+    width: 100%;
+    overflow: hidden;
+    background-color: var(--bg-light);
+}
+
+.promoter-img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+}
+
+/* Typography and Button */
+.promoter-name {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--text-dark);
+    text-transform: uppercase;
+    margin-bottom: 0.25rem;
+}
+
+.promoter-designation {
+    font-size: 0.8rem;
+    color: #6c757d;
+    height: 20px;
+    margin-bottom: 1rem;
+}
+
+.btn-view-profile {
+    background-color: #A35233;
+    color: #ffffff;
+    border: none;
+    border-radius: 0;
+    font-weight: 700;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    width: 100%;
+    transition: opacity 0.3s ease;
+}
+
+.btn-view-profile:hover {
+    color: #ffffff;
+    opacity: 0.9;
+}
+
+.tracking-wider {
+    letter-spacing: 3px;
+}
+
+/* Profile Detail Image Box */
+.profile-detail-img-box {
+    width: 100%;
+    height: 320px;
+    overflow: hidden;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    padding: 5px;
+}
+
+.profile-detail-img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+}
+
+/* Typography for Biography */
+.biography-heading {
+    color: #A35233;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 2px solid #eeeeee;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    font-size: 1.75rem;
+}
+
+.rich-text-content {
+    line-height: 1.8;
+    color: var(--text-dark);
+    text-align: justify;
+    word-break: break-word;
+}
+
+.rich-text-content p {
+    margin-bottom: 1.5rem;
+}
+
+/* Back Button Outline */
+.btn-outline-custom {
+    border: 2px solid var(--dark-navy);
+    color: var(--dark-navy);
+    background: transparent;
+    font-weight: 700;
+    border-radius: 0;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-custom:hover {
+    background: var(--dark-navy);
+    color: #ffffff;
+}
+
+/* Light variant of the universal banner overlay */
+.banner-overlay-light {
+    background: rgba(255, 255, 255, 0.4);
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    z-index: 1;
+}
+
+/* Specific Gold Search Bar Section */
+.capability-search-bar {
+    background-color: #be9144;
+}
+
+.search-input-underline {
+    border-bottom: 2px solid var(--dark-navy) !important;
+}
+
+/* Gold Button Style */
+.btn-gold {
+    background-color: #be9144 !important;
+    color: #000 !important;
+    border: none !important;
+    font-weight: 700;
+    font-size: 0.8rem;
+    padding: 10px 25px;
+    border-radius: 0 !important;
+    text-transform: uppercase;
+}
+
+.btn-gold:hover {
+    background-color: #a67c33 !important;
+}
+
+/* Capability Links */
+.category-title {
+    color: #a67c33;
+    transition: color 0.3s ease;
+}
+
+.category-title:hover {
+    color: #8d6b2c;
+    text-decoration: underline !important;
+}
+
+.subcategory-link {
+    color: var(--text-dark);
+    transition: all 0.3s ease;
+}
+
+.subcategory-link:hover {
+    text-decoration: underline !important;
+    color: #be9144 !important;
+}
+
+.banner-content h1 {
+    font-size: clamp(2.5rem, 6vw, 4.5rem) !important; 
+    font-weight: 800 !important;
+    line-height: 1.1;
+    margin-bottom: 15px;
+}
+
+/* Banner Sub-text/Paragraph के लिए */
+.banner-content p, 
+.banner-content .capability-header-text p {
+    font-size: clamp(1.1rem, 2vw, 1.5rem) !important;
+    font-weight: 500;
+    opacity: 0.9;
+}
+
+.banner-content div h1 {
+    font-size: clamp(2.5rem, 6vw, 4.5rem) !important;
+}
+

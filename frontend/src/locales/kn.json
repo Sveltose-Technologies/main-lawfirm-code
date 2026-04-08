@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "home": "ಮುಖಪುಟ",
+    "about": "ನಮ್ಮ ಬಗ್ಗೆ",
+    "ourFirm": "ನಮ್ಮ ಸಂಸ್ಥೆ",
+    "awards": "ಪ್ರಶಸ್ತಿಗಳು ಮತ್ತು ಗೌರವಗಳು",
+    "promoters": "ಪ್ರವರ್ತಕರು",
+    "professionals": "ವೃತ್ತಿಪರರು",
+    "capabilities": "ಸಾಮರ್ಥ್ಯಗಳು",
+    "news": "ಸುದ್ದಿ",
+    "careers": "ವೃತ್ತಿ",
+    "events": "ಕಾರ್ಯಕ್ರಮಗಳು",
+    "locations": "ಸ್ಥಳಗಳು",
+    "contactUs": "ಸಂಪರ್ಕಿಸಿ"
+  },
+  "auth": {
+    "loginSignup": "ಲಾಗಿನ್/ಸೈನ್ ಅಪ್",
+    "logout": "ಲಾಗ್ ಔಟ್",
+    "logoutSuccessful": "ಲಾಗ್ ಔಟ್ ಯಶಸ್ವಿ!"
+  },
+  "admin": {
+    "dashboard": "ಡ್ಯಾಶ್‌ಬೋರ್ಡ್",
+    "liveSite": "ಲೈವ್ ಸೈಟ್"
+  },
+  "pages": {
+    "home": {
+      "title": "ವಿಧಾನ ಸಂಸ್ಥೆ - ವಿಶ್ವಾತ್ಮಕ ವಿಧಾನ ಶ್ರೇಷ್ಠತೆ",
+      "description": "ವಿಶ್ವಾತ್ಮಕ ವಿಧಾನ ಶ್ರೇಷ್ಠತೆ - ಪ್ರೌಢ ವಿಧಾನ ಸೇವೆಗಳು"
+    },
+    "ourFirm": {
+      "title": "ನಮ್ಮ ಸಂಸ್ಥೆ",
+      "tagline": "ಸಂಸ್ಕೃತಿ. ಪ್ರತಿಾಬದ್ಧತೆ. ನಿಯೋಜನೆ."
+    },
+    "attorneys": {
+      "title": "ನಮ್ಮ ವಕೀಲರು",
+      "description": "ಅನುಭವಿ ವಿಧಾನ ಸಿದ್ಧಮತೆಯೋಂ ತೆಗೆದುಕೊಂಡು"
+    },
+    "capabilities": { "title": "ಸಾಮರ್ಥ್ಯಗಳು", "description": "ವಿಧಾನ ಸೇವೆಗಳು" },
+    "contactUs": { "title": "ಸಂಪರ್ಕಿಸಿ", "description": "ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ" }
+  },
+  "banner": {
+    "globalLegalExcellence": "ವಿಶ್ವಾತ್ಮಕ ವಿಧಾನ ಶ್ರೇಷ್ಠತೆ",
+    "cultureCommitmentEngagement": "ಸಂಸ್ಕೃತಿ. ಪ್ರತಿಾಬದ್ಧತೆ. ನಿಯೋಜನೆ.",
+    "innovation": "ಆವಿಷ್ಕಾರ",
+    "disclaimer": "ವಿನಿಮಯಾತ್ಮಕ"
+  }
+}

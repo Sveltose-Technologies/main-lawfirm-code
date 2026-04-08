@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "home": "হোম",
+    "about": "আমাদের সম্পর্কে",
+    "ourFirm": "আমাদের ফার্ম",
+    "awards": "পুরস্কার ও সম্মাননা",
+    "promoters": "প্রোমোটাররা",
+    "professionals": "পেশাদাররা",
+    "capabilities": "দক্ষতা",
+    "news": "খবর",
+    "careers": "ক্যারিয়ার",
+    "events": "ইভেন্ট",
+    "locations": "অবস্থান",
+    "contactUs": "যোগাযোগ করুন"
+  },
+  "auth": {
+    "loginSignup": "লগইন/সাইনআপ",
+    "logout": "লগআউট",
+    "logoutSuccessful": "লগআউট সফল!"
+  },
+  "admin": {
+    "dashboard": "ড্যাশবোর্ড",
+    "liveSite": "লাইভ সাইট"
+  },
+  "pages": {
+    "home": {
+      "title": "আইন ফার্ম - বৈশ্বিক আইনি দক্ষতা",
+      "description": "বৈশ্বিক আইনি দক্ষতা - শীর্ষস্থানীয় আইন সেবা"
+    },
+    "ourFirm": {
+      "title": "আমাদের ফার্ম",
+      "tagline": "সংস্কৃতি। প্রতিশ্রুতি। সম্পৃক্ততা।"
+    },
+    "attorneys": {
+      "title": "আমাদের আইনজীবীরা",
+      "description": "অভিজ্ঞ আইনি পেশাদারদের সাথে পরিচিত হন"
+    },
+    "capabilities": { "title": "দক্ষতা", "description": "আইনি সেবা" },
+    "contactUs": {
+      "title": "যোগাযোগ করুন",
+      "description": "আমাদের সাথে যোগাযোগ করুন"
+    }
+  },
+  "banner": {
+    "globalLegalExcellence": "বৈশ্বিক আইনি দক্ষতা",
+    "cultureCommitmentEngagement": "সংস্কৃতি। প্রতিশ্রুতি। সম্পৃক্ততা।",
+    "innovation": "উদ্ভাবন",
+    "disclaimer": "দাবিত্যাগ"
+  }
+}

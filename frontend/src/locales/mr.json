@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "home": "मुखपृष्ठ",
+    "about": "आमच्याबद्दल",
+    "ourFirm": "आमची फर्म",
+    "awards": "पुरस्कार आणि सन्मान",
+    "promoters": "प्रवर्तक",
+    "professionals": "तज्ज्ञ",
+    "capabilities": "क्षमता",
+    "news": "बातम्या",
+    "careers": "करिअर",
+    "events": "कार्यक्रम",
+    "locations": "ठिकाणे",
+    "contactUs": "संपर्क करा"
+  },
+  "auth": {
+    "loginSignup": "लॉगिन/साइनअप",
+    "logout": "लॉगआउट",
+    "logoutSuccessful": "लॉगआउट यशस्वी!"
+  },
+  "admin": {
+    "dashboard": "डॅशबोर्ड",
+    "liveSite": "लाइव्ह साइट"
+  },
+  "pages": {
+    "home": {
+      "title": "कायदेशीर फर्म - जागतिक कायदेशीर उत्कृष्टता",
+      "description": "जागतिक कायदेशीर उत्कृष्टता - प्रमुख कायद्याचे सेवा"
+    },
+    "ourFirm": {
+      "title": "आमची फर्म",
+      "tagline": "संस्कृती. प्रतिबद्धता. व्यस्तता."
+    },
+    "attorneys": {
+      "title": "आमचे वकील",
+      "description": "अनुभवी कायदेशीर व्यावसायिकांची भेट घ्या"
+    },
+    "capabilities": { "title": "क्षमता", "description": "कायद्याचे सेवा" },
+    "contactUs": { "title": "संपर्क करा", "description": "आमच्याशी संपर्क करा" }
+  },
+  "banner": {
+    "globalLegalExcellence": "जागतिक कायदेशीर उत्कृष्टता",
+    "cultureCommitmentEngagement": "संस्कृती. प्रतिबद्धता. व्यस्तता.",
+    "innovation": "नवाचार",
+    "disclaimer": "अस्वीकरण"
+  }
+}

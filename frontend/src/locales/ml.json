@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "home": "ഹോം",
+    "about": "ഞങ്ങളേക്കുറിച്ച്",
+    "ourFirm": "ഞങ്ങളുടെ സ്ഥാപനം",
+    "awards": "പുരസ്കാരങ്ങൾ & അംഗീകാരങ്ങൾ",
+    "promoters": "പ്രമോട്ടർമാർ",
+    "professionals": "പ്രൊഫഷണൽസ്",
+    "capabilities": "ക്ഷമതകൾ",
+    "news": "വാർത്തകൾ",
+    "careers": "കരിയർ",
+    "events": "ഇവന്റുകൾ",
+    "locations": "ലൊക്കേഷനുകൾ",
+    "contactUs": "ബന്ധപ്പെടുക"
+  },
+  "auth": {
+    "loginSignup": "ലോഗിൻ/സൈൻഅപ്പ്",
+    "logout": "ലോഗ്ഔട്ട്",
+    "logoutSuccessful": "ലോഗ്ഔട്ട് വിജയകരം!"
+  },
+  "admin": {
+    "dashboard": "ഡാഷ്ബോർഡ്",
+    "liveSite": "ലൈവ് സൈറ്റ്"
+  },
+  "pages": {
+    "home": {
+      "title": "നിയമ സ്ഥാപനം - വൈશ്വിക നിയമ ശ്രേഷ്ഠത",
+      "description": "വൈശ്വിക നിയമ ശ്രേഷ്ഠത - മുൻപന്നിയായ നിയമ സേവനങ്ങൾ"
+    },
+    "ourFirm": {
+      "title": "ഞങ്ങളുടെ സ്ഥാപനം",
+      "tagline": "സംസ്കാരം. പ്രതിബദ്ധത. ഇടപെടൽ."
+    },
+    "attorneys": {
+      "title": "ഞങ്ങളുടെ വകീലുമാർ",
+      "description": "അനുഭവികളായ നിയമ സ്ഥാപനങ്ങളുടെ പരിചയം"
+    },
+    "capabilities": { "title": "ക്ഷമതകൾ", "description": "നിയമ സേവനങ്ങൾ" },
+    "contactUs": {
+      "title": "ബന്ധപ്പെടുക",
+      "description": "ഞങ്ങുമായി ബന്ധപ്പെടുക"
+    }
+  },
+  "banner": {
+    "globalLegalExcellence": "വൈശ്വിക നിയമ ശ്രേഷ്ഠത",
+    "cultureCommitmentEngagement": "സംസ്കാരം. പ്രതിബദ്ധത. ഇടപെടൽ.",
+    "innovation": "നവീകരണം",
+    "disclaimer": "സമ്മതിയിലെ നിയന്ത്രണം"
+  }
+}

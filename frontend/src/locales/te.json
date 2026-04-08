@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "home": "హోమ్",
+    "about": "మా గురించి",
+    "ourFirm": "మా సంస్థ",
+    "awards": "అవార్డులు & ప్రశంసలు",
+    "promoters": "ప్రొమోటర్లు",
+    "professionals": "నిపుణులు",
+    "capabilities": "సామర్థ్యాలు",
+    "news": "వార్తలు",
+    "careers": "ఉద్యోగాలు",
+    "events": "ఈవెంట్లు",
+    "locations": "ప్రాంతాలు",
+    "contactUs": "సంప్రదించండి"
+  },
+  "auth": {
+    "loginSignup": "లాగిన్/సైన్ అప్",
+    "logout": "లాగౌట్",
+    "logoutSuccessful": "లాగౌట్ విజయవంతం!"
+  },
+  "admin": {
+    "dashboard": "డ్యాష్‌బోర్డ్",
+    "liveSite": "లైవ్ సైట్"
+  },
+  "pages": {
+    "home": {
+      "title": "న్యాయ సంస్థ - విశ్వవ్యాప్త న్యాయ మేధస్సు",
+      "description": "విశ్వవ్యాప్త న్యాయ మేధస్సు - ప్రధాన న్యాయ సంస్థ సేవలు"
+    },
+    "ourFirm": {
+      "title": "మా సంస్థ",
+      "tagline": "సంస్కృతి. నిబద్ధత. నిযుక్తి."
+    },
+    "attorneys": {
+      "title": "మా న్యాయవాదులు",
+      "description": "అనుభవం కలిగిన న్యాయ నిపుణుల పరిచయం"
+    },
+    "capabilities": { "title": "సామర్థ్యాలు", "description": "మా న్యాయ సేవలు" },
+    "contactUs": {
+      "title": "సంప్రదించండి",
+      "description": "మా సంస్థకు సంప్రదించండి"
+    }
+  },
+  "banner": {
+    "globalLegalExcellence": "విశ్వవ్యాప్త న్యాయ మేధస్సు",
+    "cultureCommitmentEngagement": "సంస్కృతి. నిబద్ధత. నియుక్తి.",
+    "innovation": "ఆవిష్కారం",
+    "disclaimer": "శాసనం"
+  }
+}

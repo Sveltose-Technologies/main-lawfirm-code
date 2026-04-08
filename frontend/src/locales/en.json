@@ -1,0 +1,150 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "ourFirm": "Our Firm",
+    "awards": "Awards & Accolades",
+    "promoters": "Promoters",
+    "professionals": "Professionals",
+    "capabilities": "Capabilities",
+    "news": "News",
+    "careers": "Careers",
+    "events": "Events",
+    "locations": "Locations",
+    "contactUs": "Contact Us"
+  },
+  "auth": {
+    "loginSignup": "Login/Signup",
+    "logout": "Logout",
+    "logoutSuccessful": "Logout Successful!"
+  },
+  "admin": {
+    "dashboard": "Dashboard",
+    "liveSite": "Live Site"
+  },
+  "pages": {
+    "home": {
+      "title": "Law Firm - Global Legal Excellence",
+      "description": "Global Legal Excellence - Premier law firm services"
+    },
+    "ourFirm": {
+      "title": "Our Firm",
+      "tagline": "Culture. Commitment. Engagement.",
+      "description": "Learn about our firm's history, values, and commitment to excellence"
+    },
+    "attorneys": {
+      "title": "Our Attorneys",
+      "description": "Meet our experienced team of legal professionals"
+    },
+    "attorney": {
+      "title": "Attorney Profile",
+      "description": "Detailed profile and expertise of our attorney"
+    },
+    "awards": {
+      "title": "Awards & Accolades",
+      "description": "Recognition and achievements of our firm"
+    },
+    "award": {
+      "title": "Award Details",
+      "description": "Details about our awards and recognitions"
+    },
+    "capabilities": {
+      "title": "Capabilities",
+      "description": "Our areas of expertise and legal services"
+    },
+    "capability": {
+      "title": "Capability Details",
+      "description": "Detailed information about our legal capabilities"
+    },
+    "professionals": {
+      "title": "Professionals",
+      "description": "Our team of professional experts"
+    },
+    "news": {
+      "title": "News",
+      "description": "Latest news and updates from our firm"
+    },
+    "newsArticle": {
+      "title": "News Article",
+      "description": "Read the latest news and updates"
+    },
+    "events": {
+      "title": "Events",
+      "description": "Upcoming events and seminars"
+    },
+    "eventDetails": {
+      "title": "Event Details",
+      "description": "Details about our upcoming event"
+    },
+    "careers": {
+      "title": "Careers",
+      "description": "Join our growing team of legal professionals"
+    },
+    "careerDetails": {
+      "title": "Career Opportunity",
+      "description": "View this career opportunity in detail"
+    },
+    "locations": {
+      "title": "Locations",
+      "description": "Our office locations around the world"
+    },
+    "locationDetails": {
+      "title": "Location Details",
+      "description": "Contact and information for our office"
+    },
+    "contactUs": {
+      "title": "Contact Us",
+      "description": "Get in touch with our team"
+    },
+    "loginSignup": {
+      "title": "Login / Sign Up",
+      "description": "Access your account or create a new one"
+    },
+    "profile": {
+      "title": "My Profile",
+      "description": "Manage your profile information"
+    },
+    "privacyPolicy": {
+      "title": "Privacy Policy",
+      "description": "Our privacy policy and data protection practices"
+    },
+    "termsCondition": {
+      "title": "Terms & Conditions",
+      "description": "Terms and conditions of use"
+    },
+    "faq": {
+      "title": "FAQ",
+      "description": "Frequently asked questions"
+    },
+    "adminPanel": {
+      "title": "Admin Panel",
+      "description": "Administrative dashboard"
+    },
+    "attorneyPanel": {
+      "title": "Attorney Panel",
+      "description": "Attorney dashboard"
+    },
+    "clientPanel": {
+      "title": "Client Panel",
+      "description": "Client dashboard"
+    },
+    "promoters": {
+      "title": "Promoters",
+      "description": "Our firm's promoters and founders"
+    },
+    "mediaContacts": {
+      "title": "Media Contacts",
+      "description": "Media contact information"
+    },
+    "socialmedia": {
+      "title": "Social Media",
+      "description": "Our social media presence"
+    }
+  },
+  "banner": {
+    "globalLegalExcellence": "Global Legal Excellence",
+    "cultureCommitmentEngagement": "Culture. Commitment. Engagement.",
+    "innovation": "Innovation",
+    "disclaimer": "Disclaimer"
+  }
+}

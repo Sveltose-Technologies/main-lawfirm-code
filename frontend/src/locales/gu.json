@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "home": "હોમ",
+    "about": "અમારા વિશે",
+    "ourFirm": "અમારી ફર્મ",
+    "awards": "પુરસ્કારો અને સન્માન",
+    "promoters": "પ્રમોટર્સ",
+    "professionals": "વ્યવસાયિકો",
+    "capabilities": "ક્ષમતાઓ",
+    "news": "સમાચાર",
+    "careers": "કારકિર્દી",
+    "events": "ઇવેન્ટ્સ",
+    "locations": "સ્થાનો",
+    "contactUs": "સંપર્ક કરો"
+  },
+  "auth": {
+    "loginSignup": "લૉગિન/સાઇનઅપ",
+    "logout": "લૉગઆઉટ",
+    "logoutSuccessful": "લૉગઆઉટ સફળ!"
+  },
+  "admin": {
+    "dashboard": "ડેશબોર્ડ",
+    "liveSite": "લાઇવ સાઇટ"
+  },
+  "pages": {
+    "home": {
+      "title": "કાનૂનમ ફર્મ - વિશ્વવ્યાપી કાનૂનમ શ્રેષ્ઠતા",
+      "description": "વિશ્વવ્યાપી કાનૂનમ શ્રેષ્ઠતા - કાનૂનમ સેવા"
+    },
+    "ourFirm": {
+      "title": "અમારી ફર્મ",
+      "tagline": "સંસ્કૃતિ. પ્રતિશ્રુતિ. સંલગ્નતા."
+    },
+    "attorneys": {
+      "title": "અમારા વકીલો",
+      "description": "અનુભવી કાનૂનમ વ્યવસાયીઓ"
+    },
+    "capabilities": { "title": "ક્ષમતાઓ", "description": "કાનૂનમ સેવા" },
+    "contactUs": {
+      "title": "સંપર્ક કરો",
+      "description": "અમારી સાથે સંપર્ક કરો"
+    }
+  },
+  "banner": {
+    "globalLegalExcellence": "વિશ્વવ્યાપી કાનૂનમ શ્રેષ્ઠતા",
+    "cultureCommitmentEngagement": "સંસ્કૃતિ. પ્રતિશ્રુતિ. સંલગ્નતા.",
+    "innovation": "નવીનતા",
+    "disclaimer": "અસ્વીકરણ"
+  }
+}

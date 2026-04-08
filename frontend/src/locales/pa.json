@@ -1,0 +1,44 @@
+{
+  "nav": {
+    "home": "ਹੋਮ",
+    "about": "ਸਾਡੇ ਬਾਰੇ",
+    "ourFirm": "ਸਾਡੀ ਫ਼ਰਮ",
+    "awards": "ਇਨਾਮ ਅਤੇ ਸਨਮਾਨ",
+    "promoters": "ਪ੍ਰਮੋਟਰ",
+    "professionals": "ਪੇਸ਼ੇਵਰ",
+    "capabilities": "ਸਮਰੱਥਾਵਾਂ",
+    "news": "ਖ਼ਬਰਾਂ",
+    "careers": "ਕਰੀਅਰ",
+    "events": "ਇਵੈਂਟ",
+    "locations": "ਥਾਵਾਂ",
+    "contactUs": "ਸੰਪਰਕ ਕਰੋ"
+  },
+  "auth": {
+    "loginSignup": "ਲਾਗਿਨ/ਸਾਈਨਅਪ",
+    "logout": "ਲਾਗਆਉਟ",
+    "logoutSuccessful": "ਲਾਗਆਉਟ ਸਫ਼ਲ!"
+  },
+  "admin": {
+    "dashboard": "ਡੈਸ਼ਬੋਰਡ",
+    "liveSite": "ਲਾਈਵ ਸਾਈਟ"
+  },
+  "pages": {
+    "home": {
+      "title": "ਕਾਨੂਨੀ ਫਰਮ - ਵਿਸ਼ਵ ਵਿਆਪੀ ਕਾਨੂਨੀ ਬੇਮਿਸ਼ਾਲ",
+      "description": "ਵਿਸ਼ਵ ਵਿਆਪੀ ਕਾਨੂਨੀ ਬੇਮਿਸ਼ਾਲ - ਸੇਵਾਵਾਂ"
+    },
+    "ourFirm": {
+      "title": "ਸਾਡੀ ਫ਼ਰਮ",
+      "tagline": "ਸਭਿਆਚਾਰ. ਵਚਨਬੱਧਤਤਾ. ਸਮਰਥਨ."
+    },
+    "attorneys": { "title": "ਸਾਡੇ ਵਕੀਲ", "description": "ਅਨੁਭਵੀ ਪੇਸ਼ੇਵਰ" },
+    "capabilities": { "title": "ਸਮਰੱਥਾਵਾਂ", "description": "ਕਾਨੂਨੀ ਸੇਵਾਵਾਂ" },
+    "contactUs": { "title": "ਸੰਪਰਕ ਕਰੋ", "description": "ਸਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰੋ" }
+  },
+  "banner": {
+    "globalLegalExcellence": "ਵਿਸ਼ਵ ਵਿਆਪੀ ਕਾਨੂਨੀ ਬੇਮਿਸ਼ਾਲ",
+    "cultureCommitmentEngagement": "ਸਭਿਆਚਾਰ. ਵਚਨਬੱਧਤਤਾ. ਨਿਯੁਕਤੀ.",
+    "innovation": "ਨਵਾਚਾਰ",
+    "disclaimer": "ਵਿਅਸ਼ਵ ਵਾਅ"
+  }
+}

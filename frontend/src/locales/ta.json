@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "home": "முகப்பு",
+    "about": "எங்களை பற்றி",
+    "ourFirm": "எங்கள் நிறுவனம்",
+    "awards": "விருதுகள் & பாராட்டுகள்",
+    "promoters": "ஊக்குவிப்பவர்கள்",
+    "professionals": "நிபுணர்கள்",
+    "capabilities": "திறன்கள்",
+    "news": "செய்திகள்",
+    "careers": "வேலைவாய்ப்பு",
+    "events": "நிகழ்வுகள்",
+    "locations": "இடங்கள்",
+    "contactUs": "தொடர்பு கொள்ள"
+  },
+  "auth": {
+    "loginSignup": "உள்நுழை / பதிவு",
+    "logout": "வெளியேறு",
+    "logoutSuccessful": "வெளியேறு வெற்றிகரமாக!"
+  },
+  "admin": {
+    "dashboard": "டாஷ்போர்டு",
+    "liveSite": "நேரடி தளம்"
+  },
+  "pages": {
+    "home": {
+      "title": "சட்ட நிறுவனம் - உலகளவு சட்ட சிறப்பு",
+      "description": "உலகளவு சட்ட சிறப்பு - சிறந்த சட்ட சேவைகள்"
+    },
+    "ourFirm": {
+      "title": "எங்கள் நிறுவனம்",
+      "tagline": "பண்பாடு. கட்டுப்பாடு. நியுக்தி."
+    },
+    "attorneys": {
+      "title": "எங்கள் வழக்கறிஞர்கள்",
+      "description": "அனுபவ வாய்ந்த சட்ட நிபுணர்கள்"
+    },
+    "awards": {
+      "title": "விருதுகள் & பாராட்டுகள்",
+      "description": "எங்கள் நிறுவனத்தின் அங்கீகாரம்"
+    },
+    "capabilities": {
+      "title": "திறன்கள்",
+      "description": "சட்ட சேவைகள் மற்றும் சிறப்பு"
+    },
+    "professionals": {
+      "title": "நிபுணர்கள்",
+      "description": "எங்கள் நிபுணர் குழு"
+    },
+    "news": {
+      "title": "செய்திகள்",
+      "description": "செய்திகள் மற்றும் அபடேட்கள்"
+    },
+    "careers": {
+      "title": "வேலைவாய்ப்பு",
+      "description": "எங்கள் குழுவில் சேரவும்"
+    },
+    "events": {
+      "title": "நிகழ்வுகள்",
+      "description": "வரவிருக்கும் நிகழ்வுகள்"
+    },
+    "locations": { "title": "இடங்கள்", "description": "உலகளவு அலுவலகங்கள்" },
+    "contactUs": {
+      "title": "தொடர்பு கொள்ள",
+      "description": "எங்கள் குழுவுடன் தொடர்பு கொள்ளுங்கள்"
+    }
+  },     
+  "banner": {
+    "globalLegalExcellence": "உலகளவு சட்ட சிறப்பு",
+    "cultureCommitmentEngagement": "பண்பாடு. கட்టுப்பாடு. நிுக்தி.",
+    "innovation": "நவாచாரம்",
+    "disclaimer": "பொறுப்பினை தெளிவுபடுத்தல்"
+  }
+}

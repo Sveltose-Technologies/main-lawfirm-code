@@ -1,0 +1,25 @@
+{
+  "nav": {
+    "home": "होम",
+    "about": "हमारे बारे में",
+    "ourFirm": "हमारी फर्म",
+    "awards": "पुरस्कार और सम्मान",
+    "promoters": "प्रवर्तक",
+    "professionals": "पेशेवर",
+    "capabilities": "क्षमताएँ",
+    "news": "समाचार",
+    "careers": "करियर",
+    "events": "कार्यक्रम",
+    "locations": "स्थान",
+    "contactUs": "संपर्क करें"
+  },
+  "auth": {
+    "loginSignup": "लॉगिन/साइनअप",
+    "logout": "लॉगआउट",
+    "logoutSuccessful": "लॉगआउट सफल!"
+  },
+  "admin": {
+    "dashboard": "डैशबोर्ड",
+    "liveSite": "लाइव साइट"
+  }
+}

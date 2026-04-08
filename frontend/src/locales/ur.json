@@ -1,0 +1,44 @@
+{
+  "nav": {
+    "home": "ہوم",
+    "about": "ہمارے بارے میں",
+    "ourFirm": "ہماری فرم",
+    "awards": "ایوارڈز اور اعزازات",
+    "promoters": "پروموٹرز",
+    "professionals": "پروفیشنلز",
+    "capabilities": "صلاحیتیں",
+    "news": "خبریں",
+    "careers": "کیریئر",
+    "events": "ایونٹس",
+    "locations": "مقامات",
+    "contactUs": "رابطہ کریں"
+  },
+  "auth": {
+    "loginSignup": "لاگ اِن/سائن اپ",
+    "logout": "لاگ آؤٹ",
+    "logoutSuccessful": "لاگ آؤٹ کامیاب!"
+  },
+  "admin": {
+    "dashboard": "ڈیش بورڈ",
+    "liveSite": "لائیو سائٹ"
+  },
+  "pages": {
+    "home": {
+      "title": "قانونی فرم - عالمی قانونی برتری",
+      "description": "عالمی قانونی برتری - اعلیٰ قانونی خدمات"
+    },
+    "ourFirm": { "title": "ہماری فرم", "tagline": "ثقافت۔ عہد۔ منسلکی۔" },
+    "attorneys": {
+      "title": "ہمارے وکیل",
+      "description": "تجربہ کار قانونی پروفیشنلز سے ملیں"
+    },
+    "capabilities": { "title": "صلاحیتیں", "description": "قانونی خدمات" },
+    "contactUs": { "title": "رابطہ کریں", "description": "ہم سے رابطہ کریں" }
+  },
+  "banner": {
+    "globalLegalExcellence": "عالمی قانونی برتری",
+    "cultureCommitmentEngagement": "ثقافت۔ عہد۔ منسلکی۔",
+    "innovation": "اختراع",
+    "disclaimer": "رعایت کا اظہار"
+  }
+}
