@@ -257,7 +257,7 @@ const Clients = () => {
                     height="40"
                     className="rounded border"
                     style={{ objectFit: "cover" }}
-                    alt="p"
+                    alt="/assets/images/profile-img.png"
                   />
                 </td>
                 <td className="fw-bold">
@@ -470,7 +470,6 @@ const Clients = () => {
                 />
               </FormGroup>
             </Col>
-          
 
             <Col xs={12} className="border-bottom pb-1 mt-3">
               <h6 className="fw-bold text-dark mb-0">2. Location Details</h6>
@@ -566,7 +565,7 @@ const Clients = () => {
                   width="60"
                   height="60"
                   className="rounded mb-2 border"
-                  alt="p"
+                  alt="/assets/images/profile-img.png"
                 />
                 <Input
                   type="file"

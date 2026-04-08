@@ -92,7 +92,7 @@ function Capabilities() {
 
   const bannerBg = capabilityHeader?.bannerImage
     ? getImgUrl(capabilityHeader.bannerImage)
-    : "";
+    : "/assets/images/banner1.png";
 
   const CategoryItem = ({ item }) => {
     const isExpanded = openCategoryIds.includes(item.id);

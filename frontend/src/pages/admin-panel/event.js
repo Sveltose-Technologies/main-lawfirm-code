@@ -424,7 +424,7 @@ const Events = () => {
                         <td>
                           <img
                             src={authService.getImgUrl(b.bannerImage)}
-                            alt="banner"
+                            alt="/assets/images/banner1.png"
                             style={{
                               height: "40px",
                               width: "70px",

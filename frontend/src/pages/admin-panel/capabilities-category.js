@@ -202,7 +202,7 @@ const fetchData = useCallback(async () => {
                           height: "35px",
                           objectFit: "cover",
                         }}
-                        alt="img"
+                        alt="/assets/images/banner1.png"
                         onError={(e) =>
                           (e.target.src = "https://placehold.co/50x35?text=NA")
                         }

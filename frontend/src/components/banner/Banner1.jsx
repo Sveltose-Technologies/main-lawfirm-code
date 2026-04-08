@@ -123,7 +123,7 @@ function Banner1() {
         style={{
           backgroundImage: heroData?.image
             ? `url("${getImgUrl(heroData.image)}")`
-            : "",
+            : "/assets/images/banner-image.png",
         }}>
         <div className="container banner-content px-3">
           <div className="row justify-content-center m-0">
@@ -237,7 +237,7 @@ function Banner1() {
                   }
                   className="w-100 h-100 object-fit-cover"
                   style={{ minHeight: "420px" }}
-                  alt=""
+                  alt="/assets/images/banner-image.png"
                 />
               </div>
               <div

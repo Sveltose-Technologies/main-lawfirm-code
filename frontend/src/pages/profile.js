@@ -237,7 +237,7 @@ export default function UserProfile({ isAdmin = false }) {
                       src={getPreview("websiteLogo")}
                       className="mt-2 rounded border"
                       style={{ width: 70, height: 70, objectFit: "contain" }}
-                      alt="Logo"
+                      alt="/assets/images/profile-img.png"
                     />
                   )}
                 </FormGroup>
@@ -253,7 +253,7 @@ export default function UserProfile({ isAdmin = false }) {
                     name="password"
                     value={formData.password}
                     onChange={handleChange}
-                  />
+                  />                                                                                                                                                                                                                                                                                                               
                 </FormGroup>
               </Col>
               <Col md={6}>

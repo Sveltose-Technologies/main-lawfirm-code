@@ -522,7 +522,7 @@ const Messages = () => {
                   width="45"
                   height="45"
                   className="rounded-circle border"
-                  alt=""
+                  alt="/assets/images/profile-img.png"
                 />
                 <div className="flex-grow-1">
                   <div className="fw-bold text-dark small">{chat.name}</div>

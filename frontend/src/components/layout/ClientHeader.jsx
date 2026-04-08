@@ -129,11 +129,7 @@ export default function ClientHeader({ onToggleSidebar }) {
             <Link href="/">
               <a className="navbar-brand p-0 m-0 d-flex align-items-center">
                 <img
-                  src={
-                    logoUrl
-                      ? getImgUrl(logoUrl)
-                      : ''
-                  }
+                  src={logoUrl ? getImgUrl(logoUrl) : ""}
                   alt="Logo"
                   style={{
                     width: "160px",
@@ -172,7 +168,7 @@ export default function ClientHeader({ onToggleSidebar }) {
                   src={profileImg}
                   className="rounded-circle border shadow-sm"
                   style={{ width: "42px", height: "42px", objectFit: "cover" }}
-                  alt="user"
+                  alt="/assets/images/profile-img.png"
                   onError={(e) => {
                     e.target.src = fallbackImg;
                   }}

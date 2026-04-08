@@ -90,7 +90,7 @@ function OurFirm() {
               <img
                 src={getImgUrl(firmData.innovationImage)}
                 className="img-fluid w-100 shadow-sm img-cover rounded"
-                alt="Innovation"
+                alt="/assets/images/banner1.png"
                 style={{ objectFit: "cover", height: "400px" }}
               />
             </div>

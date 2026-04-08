@@ -90,7 +90,7 @@ export default function AwardDetail() {
             <div className="h-100 shadow-sm rounded overflow-hidden bg-white">
               <img
                 src={profileImg}
-                alt={award.personName}
+                alt="/assets/images/profile-img.png"
                 className="w-100 h-100 border-0"
                 style={{ objectFit: "cover", minHeight: "450px" }}
               />

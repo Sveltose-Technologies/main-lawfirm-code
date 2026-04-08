@@ -370,7 +370,7 @@ const handleSubmit = async (e) => {
                     <td>
                       <img
                         src={authService.getImgUrl(city.image)}
-                        alt="city"
+                        alt="/assets/images/banner1.png"
                         style={{
                           width: "55px",
                           height: "40px",
@@ -421,7 +421,7 @@ const handleSubmit = async (e) => {
                     <td>
                       <img
                         src={authService.getImgUrl(loc.bannerImage)}
-                        alt="banner"
+                        alt="/assets/images/banner1.png"
                         style={{
                           width: "80px",
                           height: "45px",

@@ -336,7 +336,7 @@ const News = () => {
                             (e.target.src =
                               "https://placehold.co/60x40?text=No+Img")
                           }
-                          alt="Banner"
+                          alt="/assets/images/banner1.png"
                         />
                       </td>
                       <td className="fw-bold">

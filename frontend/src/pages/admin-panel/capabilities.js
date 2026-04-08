@@ -200,7 +200,7 @@ const CapabilitiesPage = () => {
                           }}>
                           <img
                             src={authService.getImgUrl(item.bannerImage)}
-                            alt="capability"
+                            alt="/assets/images/banner1.png"
                             style={{
                               width: "100%",
                               height: "100%",

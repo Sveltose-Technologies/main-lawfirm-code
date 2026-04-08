@@ -166,7 +166,7 @@ useEffect(() => {
                             ? getImgUrl(attorney.profileImage)
                             : "/assets/images/profile.png"
                         }
-                        alt={attorney.firstName}
+                        alt="/assets/images/profile-img.png"
                         className="img-fluid profile-img"
                         style={{
                           width: "100%",

@@ -386,7 +386,7 @@ const createSlug = (text) => {
                           <img
                             src={getImgUrl(attr.profileImage)}
                             className="img-fluid pointer-img w-100"
-                            alt={attr.firstName}
+                            alt="/assets/images/profile-img.png"
                             style={{
                               height: "320px",
                               objectFit: "cover",

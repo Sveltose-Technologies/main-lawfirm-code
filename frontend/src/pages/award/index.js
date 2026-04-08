@@ -133,7 +133,7 @@ function AwardsAccolades() {
   const bannerImg =
     allAwards.length > 0 && allAwards[0].bannerImage
       ? getImgUrl(allAwards[0].bannerImage)
-      : "";
+      : "/assets/images/banner1.png";
 
   return (
     <div className="bg-light-gray min-vh-100">

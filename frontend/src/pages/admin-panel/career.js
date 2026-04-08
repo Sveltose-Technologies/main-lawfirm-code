@@ -432,7 +432,7 @@ const AdminCareerManagement = () => {
                         width="50"
                         height="35"
                         className="rounded border"
-                        alt=""
+                        alt="/assets/images/banner1.png"
                       />
                     </td>
                     <td className="fw-bold">{activeSubTab}</td>
@@ -488,7 +488,7 @@ const AdminCareerManagement = () => {
                         width="50"
                         height="35"
                         className="rounded"
-                        alt=""
+                        alt="/assets/images/banner1.png"
                       />
                     </td>
 

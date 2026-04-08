@@ -263,7 +263,7 @@ const AwardPage = () => {
                         }}>
                         <img
                           src={authService.getImgUrl(item.peopleImage)}
-                          alt="Profile"
+                          alt="/assets/images/profile-img.png"
                           style={{
                             width: "100%",
                             height: "100%",
@@ -287,7 +287,7 @@ const AwardPage = () => {
                         }}>
                         <img
                           src={authService.getImgUrl(item.bannerImage)}
-                          alt="Banner"
+                          alt="/assets/images/banner1.png"
                           style={{
                             width: "100%",
                             height: "100%",

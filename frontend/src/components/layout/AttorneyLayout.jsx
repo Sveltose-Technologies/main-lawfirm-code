@@ -147,30 +147,29 @@ export default function AttorneyLayout({ children }) {
             <div
               className="card border-0 shadow-sm rounded-4 sticky-top"
               style={{ top: "90px" }}>
-             {/* --- UPDATE THIS SECTION IN YOUR ATTORNEYLAYOUT.JS --- */}
-<div className="p-4 text-center border-bottom">
-  <img
-    src={
-      profileImg || `https://ui-avatars.com/api/?name=${userName}`
-    }
-    
-    className="rounded-circle mb-2 border border-2 border-warning d-block mx-auto"
-    style={{ width: "80px", height: "80px", objectFit: "cover" }}
-    alt="profile"
-  />
-  <h6 className="fw-bold mb-0 text-truncate">{userName}</h6>
-  <div className="mt-2">
-    {isFullyAccessible ? (
-      <span className="badge bg-success small">
-        ● Active Account
-      </span>
-    ) : (
-      <span className="badge bg-danger small">
-        ● Pending Activation
-      </span>
-    )}
-  </div>
-</div>
+              {/* --- UPDATE THIS SECTION IN YOUR ATTORNEYLAYOUT.JS --- */}
+              <div className="p-4 text-center border-bottom">
+                <img
+                  src={
+                    profileImg || `https://ui-avatars.com/api/?name=${userName}`
+                  }
+                  className="rounded-circle mb-2 border border-2 border-warning d-block mx-auto"
+                  style={{ width: "80px", height: "80px", objectFit: "cover" }}
+                  alt="/assets/images/profile-img.png"
+                />
+                <h6 className="fw-bold mb-0 text-truncate">{userName}</h6>
+                <div className="mt-2">
+                  {isFullyAccessible ? (
+                    <span className="badge bg-success small">
+                      ● Active Account
+                    </span>
+                  ) : (
+                    <span className="badge bg-danger small">
+                      ● Pending Activation
+                    </span>
+                  )}
+                </div>
+              </div>
 
               <div className="p-3">
                 <nav className="nav flex-column gap-1">

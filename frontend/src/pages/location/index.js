@@ -160,7 +160,7 @@ function Locations() {
                                     <img
                                       src={authService.getImgUrl(city.image)}
                                       className="card-img-top"
-                                      alt={city.cityName}
+                                      alt="/assets/images/banner1.png"
                                     />
                                   </div>
                                 </div>

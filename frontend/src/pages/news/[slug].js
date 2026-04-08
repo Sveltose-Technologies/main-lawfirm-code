@@ -9,8 +9,7 @@ import {
   getAllNews,
   getAllCapabilityCategories,
   getAllLocationCities,
-  getAllAttorneys, // Added this
-  getImgUrl,
+  getAllAttorneys,
 } from "../../services/authService";
 
 export default function NewsDetail() {

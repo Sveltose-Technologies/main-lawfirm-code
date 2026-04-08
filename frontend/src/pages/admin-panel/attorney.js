@@ -316,7 +316,7 @@ const handleUpdateSubmit = async () => {
                     height="40"
                     className="rounded-circle border"
                     style={{ objectFit: "cover" }}
-                    alt="p"
+                    alt="/assets/images/profile-img.png"
                   />
                 </td>
                 <td className="fw-bold">
@@ -735,7 +735,6 @@ const handleUpdateSubmit = async () => {
                   onChange={(e) =>
                     setEditData({ ...editData, admission: e.target.value })
                   }
-                  
                 />
               </FormGroup>
             </Col>

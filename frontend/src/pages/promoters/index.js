@@ -32,7 +32,7 @@ export default function Promoters() {
   // Helper function ka use karein banner ke liye
   const bannerImg = promoters[0]?.bannerImage
     ? getImgUrl(promoters[0].bannerImage)
-    : "";
+    :  "/assets/images/banner1.png";
 
   return (
     <div className="bg-light-gray min-vh-100">
@@ -53,7 +53,6 @@ export default function Promoters() {
             <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12" key={p.id}>
               <div className="custom-card-wrapper shadow-sm">
                 <div className="img-fixed-container">
-                  {/* getImgUrl ka use karein */}
                   <img src={getImgUrl(p.personImage)} alt={p.personName} />
                 </div>
 

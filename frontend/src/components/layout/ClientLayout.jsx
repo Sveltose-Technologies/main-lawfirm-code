@@ -350,7 +350,7 @@ export default function ClientLayout({ children }) {
                   src={clientData.image}
                   className="rounded-circle mb-2 border border-2 border-warning shadow-sm d-block mx-auto"
                   style={{ width: "80px", height: "80px", objectFit: "cover" }}
-                  alt="profile"
+                  alt="/assets/images/profile-img.png"
                 />
                 <h6 className="fw-bold mb-0 text-truncate text-capitalize">
                   {clientData.name}

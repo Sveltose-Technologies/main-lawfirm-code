@@ -389,7 +389,7 @@ const handleAction = async (e) => {
                         src={getImgUrl(item.image)}
                         width="80"
                         className="rounded"
-                        alt=""
+                        alt="/assets/images/banner1.png"
                       />
                     </td>
                     <td>{item.typeId}</td>
@@ -451,7 +451,7 @@ const handleAction = async (e) => {
                       <img
                         src={getImgUrl(item.secondImage)}
                         width="50"
-                        alt=""
+                        alt="/assets/images/banner1.png"
                       />
                     </td>
                     <td className="text-end">

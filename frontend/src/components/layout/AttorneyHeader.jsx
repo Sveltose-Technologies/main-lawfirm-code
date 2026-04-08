@@ -291,12 +291,8 @@ export default function AttorneyHeader({ onToggleSidebar }) {
           <Link href="/">
             <a className="navbar-brand p-0">
               <img
-                src={
-                  logoUrl
-                    ? authService.getImgUrl(logoUrl)
-                    : ''
-                }
-                alt="Logo"
+                src={logoUrl ? authService.getImgUrl(logoUrl) : ""}
+                alt="/assets/images/profile-img.png"
                 style={{ maxHeight: "45px", width: "auto" }}
               />
             </a>
@@ -337,7 +333,7 @@ export default function AttorneyHeader({ onToggleSidebar }) {
                 className="rounded-circle border border-2 border-warning shadow-sm"
                 width="42"
                 height="42"
-                alt="profile"
+                alt="/assets/images/profile-img.png"
                 style={{ objectFit: "cover", aspectRatio: "1/1" }}
               />
             </DropdownToggle>

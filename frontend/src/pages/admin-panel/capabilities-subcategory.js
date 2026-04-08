@@ -200,7 +200,7 @@ const CapabilitySubCategory = () => {
                           height: "30px",
                           objectFit: "cover",
                         }}
-                        alt="sub"
+                        alt="/assets/images/banner1.png"
                         onError={(e) =>
                           (e.target.src = "https://placehold.co/45x30")
                         }
